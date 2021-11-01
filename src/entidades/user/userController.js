@@ -1,6 +1,6 @@
-const User = require('./userModel');
+const User = require('./userModel.js');
 const jwt = require('jsonwebtoken');
-const config = require('./config');
+const config = require('./app.js');
 
 //POST USER
 module.exports.login = async (req, res) => {
