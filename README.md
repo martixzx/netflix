@@ -8,8 +8,9 @@ Tambien debes poder crear modificar y eliminar peliculas.
 # Tecnologias
 
 - JavaScript
-- express
-- node
+- Express
+- Node
+- MongoDB
 
 
 #### Partes del codigo
