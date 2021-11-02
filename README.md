@@ -15,6 +15,9 @@ Tambien debes poder crear modificar y eliminar peliculas.
 
 #### Partes del codigo
 
+
+##### rutas de acesso para el usuario
+
 router.get('/users', controller.getUser);
 
 router.get('/singleUser', controller.getSingleUser);
@@ -26,5 +29,18 @@ router.post('/users', controller.createUser);
 router.put('/users',controller.updateUser);
 
 router.delete('/users/:id', controller.deleteUser);
+
+##### rutas de acesso para las peliculas
+
+router.get('/:id', controller.postMovie);
+
+router.get('/singleMovie', controller.unapelicula);
+
+router.post('/actualiza', controller.actualiza);
+
+router.put('/crear', controller.createMovie);
+
+router.delete('/eliminar/:id', controller.deleteMovie);
+
 
 
