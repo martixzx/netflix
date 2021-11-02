@@ -14,5 +14,8 @@ router.put('/users',controller.updateUser);
 router.delete('/users/:id', controller.deleteUser);
 
 module.exports = router;
+
+
+
 //si quiero hacer un put tiene que ser solo para que algunos puedan modificar su perfil
 

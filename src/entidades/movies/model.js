@@ -8,6 +8,9 @@ const pelicula = mongoose.Schema({
     years: {
         type: Number
     },
+    autor: {
+        type: String
+    }
     
 });
 
